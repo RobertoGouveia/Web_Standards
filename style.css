@@ -1,0 +1,184 @@
+.container {
+    margin: 0 auto;
+}
+
+.header {
+    text-align: left;
+    padding: 10px 60px;
+    background-color: white;
+}
+
+h1 {
+    font-family: "Lora", serif;
+    font-weight: 100;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+p {
+    font-family: "Lora", serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+h2 {
+    font-family: "Lora", serif;
+    font-weight: 100;
+}
+
+.headerTittle {
+    font-size: 1.875rem;
+    line-height: 1.75rem;
+}
+
+.start {
+    background-color: #FFE8D6;
+    min-height: 300px;
+    padding: 50px 60px;
+}
+
+.divContent {
+    max-width: 1440px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.startTitle {
+    line-height: 5rem;
+    font-weight: 400;
+    font-size: 4.5rem;
+
+    @media (max-width: 420px) {
+        font-size: 3.5rem;
+    }
+}
+
+.startParagraph {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+.about {
+    background-color: white;
+    gap: 50px;
+    padding: 50px 60px;
+    min-height: 300px;
+
+}
+
+.imageAbout {
+    width: 500px;
+    height: 330px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    align-self: center;
+
+    @media (max-width: 640px) {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.contentAbout {
+    display: flex;
+    flex-direction: column;
+}
+
+.divContentAbout {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1440px;
+
+    
+    @media (max-width: 880px){
+        flex-direction: column-reverse;
+    }
+}
+
+.services {
+    background-color: #FFE8D6;
+    min-height: 300px;
+    padding: 50px 60px;
+}
+
+.divImage {
+    max-width: 350px;
+}
+
+.imageServices {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.contentServices {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    gap: 10px;   
+    justify-content: space-around;
+    max-width: 1440px;
+}
+
+.benefits {
+    min-height: 300px;
+    padding: 50px 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.benefitsContent {
+    max-width: 1440px;
+}
+
+.ulBenefits {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    background-color: #FFE8D6;
+    min-height: 300px;
+    padding: 50px 60px; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    background-color: white;
+    max-width: 500px;
+    border-radius: 8px;
+    height: 30px;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 500px;
+}
+
+.input {
+    border-radius: 8px;
+    height: 30px;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px 60px;
+}
+
+.paragraphServices {
+    max-width: 370px;
+}
